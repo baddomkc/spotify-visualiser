@@ -1,7 +1,7 @@
 let token = ""
 
 export async function get30NewReleaseCovers() {
-  const res = await fetch("/api/v1/browse/new-releases?limit=30", {
+  const res = await fetch("/api/v1/playlists/37i9dQZF1CL09rUUxlaZCH/tracks?limit=30", {
     headers: {
       Authorization: `Bearer ${token}`,
     },
